@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3 uid="uid://bak82p7blygc1"]
+
+[ext_resource type="Texture2D" uid="uid://edjcm6ukfftp" path="res://Deserto.jpg" id="1_vuh3q"]
+[ext_resource type="Script" path="res://Botão.cs" id="2_2gykk"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Deserto" type="Sprite2D" parent="."]
+position = Vector2(579, 323)
+scale = Vector2(1.19792, 1.78056)
+texture = ExtResource("1_vuh3q")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_direction = 1
+offset_left = 289.0
+offset_top = 50.0
+offset_right = 824.0
+offset_bottom = 137.0
+theme_override_colors/background_color = Color(0, 0, 0, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "Foi de comes e bebes"
+
+[node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0.803922)
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 466.417
+offset_top = 576.875
+offset_right = 526.417
+offset_bottom = 604.875
+script = ExtResource("2_2gykk")
+
+[node name="TextEdit2" type="TextEdit" parent="."]
+offset_left = 221.0
+offset_top = 182.0
+offset_right = 946.0
+offset_bottom = 427.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "A terra acabou por que você é ruim...
+
+                         Melhore na próxima"

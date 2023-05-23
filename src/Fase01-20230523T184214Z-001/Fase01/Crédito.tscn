@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://h88nag3qpbfx"]
+
+[ext_resource type="Texture2D" uid="uid://j3krpgbna3r5" path="res://1 Tiles/Tileset.png" id="1_nilmo"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Tileset" type="Sprite2D" parent="."]
+position = Vector2(659, 475)
+texture = ExtResource("1_nilmo")
