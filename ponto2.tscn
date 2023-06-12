@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://bql4d1mjxj5f4"]
+
+[ext_resource type="Script" path="res://pontos/ponto2.cs" id="1_o6j0t"]
+[ext_resource type="Texture2D" uid="uid://tygbs7n0cksd" path="res://arara azul.png" id="2_tttl8"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3n8l8"]
+radius = 3.0
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_o6j0t")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(225, 260)
+shape = SubResource("CircleShape2D_3n8l8")
+
+[node name="AraraAzul" type="Sprite2D" parent="."]
+position = Vector2(227, 260)
+scale = Vector2(0.107639, 0.0945834)
+texture = ExtResource("2_tttl8")
+
+[connection signal="body_shape_entered" from="Area2D" to="." method="_on_area_2d_body_shape_entered"]
