@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://30v0e3h7dnka"
-path="res://.godot/imported/5.png-8c661950fdfca4d4910ebc2d1085c10f.ctex"
+uid="uid://bg8s5fx5wi8a7"
+path="res://.godot/imported/5.png-f48ba9a8e7b17867125a306248c6a4fb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://3 Objects/Ladders/5.png"
-dest_files=["res://.godot/imported/5.png-8c661950fdfca4d4910ebc2d1085c10f.ctex"]
+source_file="res://3 Objects/Ridges/5.png"
+dest_files=["res://.godot/imported/5.png-f48ba9a8e7b17867125a306248c6a4fb.ctex"]
 
 [params]
 
