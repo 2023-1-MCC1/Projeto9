@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://5i0kyf17rdl5"]
+
+[ext_resource type="Texture2D" uid="uid://dp2ad6j2mlpl6" path="res://fundo preto.jpg" id="1_gmhtc"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="FundoPreto" type="Sprite2D" parent="."]
+position = Vector2(577.5, 324)
+scale = Vector2(5.45581, 5.53719)
+texture = ExtResource("1_gmhtc")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = -4.0
+offset_right = 1155.0
+offset_bottom = 653.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 50
+text = "Você vai ao coração da floresta e então os
+animais e o lixo param de aparecer.
+Porém as arvorés começam a parecer
+destruidas plante-as novamente ajude a
+ floresta e garanta mais tempo"
+
+[node name="Button" type="Button" parent="."]
+offset_left = 802.0
+offset_top = 531.0
+offset_right = 1158.0
+offset_bottom = 650.0
+theme_override_font_sizes/font_size = 50
+text = "Continuar"

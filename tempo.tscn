@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbj5tbnxfqnbg"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_oup0t"]
+font_size = 40
+font_color = Color(0, 0.568627, 0.568627, 1)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Timer" type="Timer" parent="."]
+process_callback = 0
+autostart = true
+
+[node name="Label" type="Label" parent="Timer"]
+offset_right = 982.0
+offset_bottom = 146.0
+text = "3:00"
+label_settings = SubResource("LabelSettings_oup0t")
+horizontal_alignment = 1

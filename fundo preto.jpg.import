@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bona1myk7tam7"
-path="res://.godot/imported/New Piskel.png-4b57200a9b5d4d6f89cce1bdbbdb2eec.ctex"
+uid="uid://dp2ad6j2mlpl6"
+path="res://.godot/imported/fundo preto.jpg-3925d169d38b7ef45700302e8a40d7c6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://New Piskel.png"
-dest_files=["res://.godot/imported/New Piskel.png-4b57200a9b5d4d6f89cce1bdbbdb2eec.ctex"]
+source_file="res://fundo preto.jpg"
+dest_files=["res://.godot/imported/fundo preto.jpg-3925d169d38b7ef45700302e8a40d7c6.ctex"]
 
 [params]
 
