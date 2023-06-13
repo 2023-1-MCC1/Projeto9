@@ -21,12 +21,7 @@
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
+O nosso jogo  é um jogo de plataforma , em que a personagem principal é a Mãe Natureza, nele ela passará por tr~es fases para salvar o mundo das conseque  das ações humanas, como a poluição, a caça e por consequência a extinção dos animai.
 
 ## 🛠 Estrutura de pastas
 
